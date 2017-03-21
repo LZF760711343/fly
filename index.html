@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/swiper-3.4.1.min.css">
+    <link rel="stylesheet" href="css/mybase.css"/>
+    <link rel="stylesheet" href="css/bg-img.css"/>
+    <link rel="stylesheet" href="css/personal-center.css">
+    <link rel="stylesheet" href="css/plate.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper-3.4.1.jquery.min.js"></script>
+</head>
+<body style="background: #efefef;color: #666666">
+    <div class="base-wrap" style="margin-bottom: 100px">
+        <div class="swiper-container bg-f">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/index-01.jpg" class="swiper-slide-img"></div>
+                <div class="swiper-slide"><img src="images/index-01.jpg" class="swiper-slide-img"></div>
+                <div class="swiper-slide"><img src="images/index-01.jpg" class="swiper-slide-img"></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev index-left"></div>
+            <div class="swiper-button-next index-right"></div>
+            <img src="images/advertisement.jpg" class="advertisement">
+        </div>
+        <!--导航等组件可以放在container之外-->
+        <script>
+            var mySwiper = new Swiper ('.swiper-container', {
+                loop: true,
+                autoplayDisableOnInteraction: false,
+                autoplay : 3000,
+                paginationClickable :true,
+                // 如果需要分页器
+                pagination: '.swiper-pagination',
+                prevButton:'.swiper-button-prev',
+                nextButton:'.swiper-button-next',
+
+//                effect : 'fade',
+            })
+        </script>
+        <div class="text-align clearfix f-15px bg-f" style="padding: 0 5px 5px 5px;margin-bottom: 2px">
+            <a class="text-align-and" href="">
+                <img src="images/index_01.png" style="width: 80%"/><br/>
+                <span class="text-align-zi">金融期货</span>
+            </a>
+            <a class="text-align-and" href="">
+                <img src="images/index_02.png" style="width: 80%"/><br/>
+                <span class="text-align-zi">黑色建材</span>
+            </a>
+            <a class="text-align-and" href="plate.html">
+                <img src="images/index_03.png" style="width: 80%"/><br/>
+                <span class="text-align-zi">能源化工</span>
+            </a>
+            <a class="text-align-and" href="">
+                <img src="images/index_04.png" style="width: 80%"/><br/>
+                <span class="text-align-zi">农产品</span>
+            </a>
+            <a class="text-align-and" href="">
+                <img src="images/index_05.png" style="width: 80%"/><br/>
+                <span class="text-align-zi">金属期货</span>
+            </a>
+        </div>
+        <div class="plate-content bg-f">
+            <div>
+                <div class="clearfix f-15px plate-color">
+                    <span class="plate-content-zhibo">视频直播</span>
+                    <a class="fr a-color" href="video.html">更多<i class="plate_04 img"></i></a>
+                </div>
+                <a class="big-seeding rel cfff" href="#">
+                    <img src="images/index-001.png" class="img-end" style="width: 53px">
+                    <img src="images/new.jpg" class="img-tu">
+                    <img src="images/index_07.png" class="img-already"/>
+                    <span class="img-time">时间：2017年2月13日</span>
+                    <span class="img-number f-14px"><i class="index_06 img"></i>6618次</span>
+                </a>
+                <p class="f-14px sheng" style="margin: 6px 0">2017，将”为国空旷”进行到底！-Abo</p>
+                <p class="f-11px sheng2" style="line-height: 14px">
+                    空矿。黑色产业中供应确定增加的；利润极大；汇率、结构性等问题炒作过了；钢铁去产量，矿石需求...            </p>
+            </div>
+            <div>
+                <a class="big-seeding rel cfff" href="#">
+                    <img src="images/index-001.png" class="img-end" style="width: 53px">
+                    <img src="images/plate-01.jpg" class="img-tu">
+                    <img src="images/index_07.png" class="img-already"/>
+                    <span class="img-time">时间：2017年2月13日</span>
+                    <span class="img-number f-14px"><i class="index_06 img"></i>6618次</span>
+                </a>
+                <p class="f-14px sheng" style="margin: 6px 0">2017，将”为国空旷”进行到底！-Abo</p>
+                <p class="f-11px sheng2" style="line-height: 14px">
+                    空矿。黑色产业中供应确定增加的；利润极大；汇率、结构性等问题炒作过了；钢铁去产量，矿石需求...            </p>
+            </div>
+        </div>
+        <div class="bg-f padd-mar-b">
+            <img src="images/index-02.jpg" style="width: 100%;margin-top: 3px">
+            <div class="clearfix f-15px plate-color">
+                <span class="plate-content-zhibo">专家智库问答</span>
+                <a class="fr a-color" href="more-experts.html">更多<i class="plate_04 img"></i></a>
+            </div>
+            <div class="d-flex  plate-index">
+                <div class="plate-content-img1 rel">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                </div>
+                <div class="flex center-color f-11px">
+                    <p class="f-13px sheng-title" style="color: #0164bf;margin-top: -4px">Abo-黑色圈才子</p>
+                    <p class="topjianxian rel sheng" style="padding-top: 5px;margin: 3px 0 5px 0">大宗商品震荡上行成主旋律</p>
+                    <div class="clearfix">
+                        <span class="center-margin">今天11：18</span>
+                        <span class="fr">
+                            <i class="plate_03 img" style="vertical-align: -2px"></i>
+                            <span>关注数：13.69万</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex  plate-index">
+                <div class="plate-content-img1 rel">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                </div>
+                <div class="flex center-color f-11px">
+                    <p class="f-13px sheng-title" style="color: #0164bf;margin-top: -4px">Abo-黑色圈才子</p>
+                    <p class="topjianxian rel sheng" style="padding-top: 5px;margin: 3px 0 5px 0">大宗商品震荡上行成主旋律</p>
+                    <div class="clearfix">
+                        <span class="center-margin">今天11：18</span>
+                        <span class="fr">
+                            <i class="plate_03 img" style="vertical-align: -2px"></i>
+                            <span>关注数：13.69万</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-f" style="padding: 4px 9px;">
+            <div class="clearfix f-15px plate-color">
+                <span class="plate-content-zhibo">社群论坛</span>
+                <a class="fr">更多<i class="plate_04 img"></i></a>
+            </div>
+        </div>
+        <div class="bg-f padd-mar-b">
+            <div class="d-flex " style="padding-top: 2px;color: #666666">
+                <img src="images/new.jpg" class="small-img-zhu"/>
+                <div class="flex f-11px">
+                    <p class="small-content clearfix">
+                        <span style="color:#0164bf;" class="f-15px">王军</span>
+                        <span class="samll-name sheng-title f-12px">背景华通总经理背景华通总经理背景华通总经理</span>
+                        <span class="fr">11-28 10:00</span></p>
+                    <p class="sheng">1季度豆粕产业和价格投资机会分析</p>
+                </div>
+            </div>
+            <div class="d-flex  plate-index ">
+                <div class="plate-content-img1 rel">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                    <img src="images/plate_001.png" class="img-end">
+                </div>
+
+                <div class="flex f-10px">
+                    <p class="sheng2 " style="height: 25px">最近，认为大宗商品超级周期已经结束的观点比较常见。我个人不同意这一观点。我认为，商品市场经过了供求差距...</p>
+                    <p style="margin: 2px 0 12px 0">最新发言： 讲的好</p>
+                    <div class="small-ionic">
+                        <i class="plate_05 img"></i>
+                        <span>14浏览</span>
+                        <i class="plate_06 img"></i>
+                        <span>分享14</span>
+                        <i class="plate_07 img"></i>
+                        <span>赞28</span>
+                        <a href="answer.html" style="color: #666666">
+                            <i class="plate_01 img"></i>
+                            <span>留言15</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-f padd-mar-b">
+            <div class="d-flex d-flex-center" style="padding-top: 2px;color: #666666">
+                <img src="images/new.jpg" class="small-img-zhu"/>
+                <div class="flex f-11px">
+                    <p class="small-content clearfix">
+                        <span style="color:#0164bf;" class="f-15px">王军</span>
+                        <span class="samll-name sheng-title f-12px">背景华通总经理背景华通总经理背景华通总经理</span>
+                        <span class="fr">11-28 10:00</span></p>
+                    <p class="sheng">1季度豆粕产业和价格投资机会分析</p>
+                </div>
+            </div>
+            <div class="d-flex  plate-index ">
+                <div class="plate-content-img1 rel">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                    <img src="images/plate_001.png" class="img-end">
+                </div>
+
+                <div class="flex f-10px">
+                    <p class="sheng2 " style="height: 25px">最近，认为大宗商品超级周期已经结束的观点比较常见。我个人不同意这一观点。我认为，商品市场经过了供求差距...</p>
+                    <p style="margin: 2px 0 12px 0">最新发言： 讲的好</p>
+                    <div class="small-ionic">
+                        <i class="plate_05 img"></i>
+                        <span>14浏览</span>
+                        <i class="plate_06 img"></i>
+                        <span>分享14</span>
+                        <i class="plate_07 img"></i>
+                        <span>赞28</span>
+                        <a href="answer.html" style="color: #666666">
+                            <i class="plate_01 img"></i>
+                            <span>留言15</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-f padd-mar-b">
+            <div class="clearfix f-15px plate-color">
+                <span class="plate-content-zhibo">精品文章</span>
+                <a class="fr a-color" href="more-articles.html">更多<i class="plate_04 img"></i></a>
+            </div>
+            <div class="d-flex  plate-index">
+                <div class="plate-content-img1">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                </div>
+                <div class="flex">
+                    <p class="f-13px" style="margin-top: -2px;">今日午盘<i class="plate_08 img"></i></p>
+                    <p style="margin-top: 8px;height: 40px" class="sheng3">最近，认为大宗商品超级周期已经结束的观点比较常见认为大宗商品超级周期已经结束的观点比较常见。我个人不同意这一观点。我个人不同意这一观点。</p>
+                </div>
+            </div>
+            <div class="d-flex  plate-index topchangxian rel">
+                <div class="plate-content-img1">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                </div>
+                <div class="flex">
+                    <p class="f-13px" style="margin-top: -2px;">今日午盘<i class="plate_08 img"></i></p>
+                    <p style="margin-top: 8px;height: 40px" class="sheng3">最近，认为大宗商品超级周期已经结束的观点比较常见认为大宗商品超级周期已经结束的观点比较常见。我个人不同意这一观点。我个人不同意这一观点。</p>
+                </div>
+            </div>
+            <div class="d-flex  plate-index topchangxian rel">
+                <div class="plate-content-img1">
+                    <img src="images/plate-01.jpg" class="img-zhibo">
+                </div>
+                <div class="flex">
+                    <p class="f-13px" style="margin-top: -2px;">今日午盘<i class="plate_08 img"></i></p>
+                    <p style="margin-top: 8px;height: 40px" class="sheng3">最近，认为大宗商品超级周期已经结束的观点比较常见认为大宗商品超级周期已经结束的观点比较常见。我个人不同意这一观点。我个人不同意这一观点。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--定位-->
+    <div class="content-bottom ">
+        <div class="rel base-wrap changxian">
+            <div class="d-flex d-flex-center content-kuai">
+                <a class="db wid-col" href="index.html">
+                    <img src="images/ionic-01-1.png" width="21"/>
+                    <br/>
+                    <span class="f-12px active">首页</span>
+                </a>
+                <a class="db wid-col" href="new.html">
+                    <span class="rel">
+                        <img src="images/ionic-02.png" width="16"/>
+                        <i class="small-new-ball"></i>
+                    </span>
+                    <br/>
+                    <span class="f-12px ">消息</span>
+                </a>
+                <a class="db wid-col" href="#">
+                    <div class="centent-ceng">
+                    </div>
+                    <div class="centent-zhibo"><img src="images/ionic-03.png" width="44"/></div>
+                    <div style="width: 25px;height: 25px"></div>
+                    <span class="f-12px">直播</span>
+                </a>
+                <a class="db wid-col" href="forum.html">
+                    <img src="images/ionic-04.png" width="19"/>
+                    <br/>
+                    <span class="f-12px">社群</span>
+                </a>
+                <a class="db wid-col" href="personal-center.html">
+                    <img src="images/ionic-05.png" width="16"/>
+                    <br/>
+                    <span class="f-12px">我的+</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

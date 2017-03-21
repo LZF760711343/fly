@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.new-left{
+    padding: 0 4px 0 8px;
+}
+
+.new-total{
+    padding:9px 10px 3px 10px;
+}
+.new-content{
+    margin-right: 15px;
+    display: inline-block;
+}
+.new-small-content{
+    margin: 4px 0;
+    height: 25px;
+}
+
+.left-xian:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: -5px;
+    bottom: -10px;
+    width: 1px;
+    border-right: 1px solid #666666;
+    color: #666666;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    z-index: 2;
+}
+
+.small-ball-inside{
+    vertical-align: 0.21rem;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #666666;
+    margin-left: 0.138rem;
+}
+
+.small-ball{
+    position: absolute;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    border: 1px solid #666666 ;
+    border-radius: 50%;
+    left: -3px;
+    top: 2rem;
+    z-index: 3;
+}
+
+.small-ball .active{
+    background: #3386d1;
+}
+.switch{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 10px;
+}
+.switch-bottom{
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+.switch-bottom .ul{
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    margin: 0 20%;
+}
+.switch-bottom .ul .li{
+    width: 40%;
+}
+.switch-bottom .ul .li a{
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    color: #666666;
+    padding-bottom:3px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.switch-bottom .ul .li .active{
+    color: #3386d1;
+    border-bottom: 1px solid #3386d1;
+}
+.switch-a{
+    font-size: 12px;
+    display: inline-block;
+    color: #3386d1;
+    border: 1px solid #3386d1;
+    padding: 0 0.8rem;
+    border-radius: 5px;
+    margin: 0.5rem 0.1rem 0 0.1rem;
+    line-height: 16px;
+}
+.switch-active{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.switch-active .active{
+    color: #ffffff;
+    background: #3386d1;
+}
+.zuoxian:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 1px;
+    bottom: 5px;
+    border-right: 1px solid #666666;
+    color: #666666;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+}

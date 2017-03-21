@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.swiper-button-next, .swiper-button-prev{
+    height: 20px;
+}
+.text-align-and{
+    width: 20%;
+    float: left;
+}
+.text-align-zi{
+    color: #666666;
+}
+.a-color{
+    color: #1370c5;
+}
+.sheng3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 14px;
+}
+.big-seeding{
+    display: inline-block;
+    width:100%;
+    box-sizing: border-box;
+}
+.big-seeding .img-tu{
+    width: 100%;
+    height: 198px;
+    margin-top: 6px;
+}
+.index_06{
+    vertical-align: -1px;
+    margin-right: 8px;
+}
+.img-already{
+    height: 19px;
+    position: absolute;
+    left: 5px;
+    bottom: 8px;
+}
+.img-time{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    font-size: 13px;
+}
+.img-number{
+    position: absolute;
+    right: 6px;
+    bottom: 10px;
+}
+.index-left{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    width: 20px!important;
+    height: 20px!important;
+    left: 15px!important;
+    top: 60%!important;
+    background: url(../images/index-left.png) no-repeat top center!important;
+    background-size: 100%!important;
+}
+.index-right{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    width: 20px!important;
+    height: 20px!important;
+    right: 15px!important;
+    top: 60%!important;
+    background: url(../images/index-right.png) no-repeat top center!important;
+    background-size: 100%!important;
+}
+.advertisement{
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    width: 28px;
+    z-index: 5;
+}

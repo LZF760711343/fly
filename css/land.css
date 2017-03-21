@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.land-Center{
+    width: 68%;
+    margin: 0 auto;
+}
+.land-Center .p{
+    margin: 15px 0;
+}
+.input-content{
+    width: 100%;
+    border: 1px solid  #b5b4b4;
+    border-radius: 6px;
+    line-height: 26px;
+    font-size: 15px;
+    margin-bottom: 6px;
+    box-sizing: border-box;
+}
+.input-content .input{
+    width: 180px;
+    color: #b5b4b4;
+    vertical-align: 0.1rem;
+    font-size: 15px;
+}
+.spacing{
+    margin: 0 2px 0 8px;
+    vertical-align: -3px;
+}
+
+.Interest .a{
+    display: inline-block;
+    width: 40%;
+    margin: 0 4.5% 8px 4.46%;
+    border: 1px solid #3386d1;
+    border-radius: 3px;
+    color: #3386d1;
+    box-sizing: border-box;
+    padding-left: 9px;
+    font-size: 11px;
+}
+.ze-btn{
+    position: relative;
+    display: block;
+    margin: 14px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 0;
+    color: #FFFFFF;
+    line-height: 25px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    background-color: #dfbe9f;
+}
+.register_07{
+    margin-right: 8px;
+    vertical-align: -1px;
+}
+.add-sub{
+    margin-top: -4px;
+}
+.add-sub .img{
+    width: 11px;
+}
+.parent{
+    position: relative;
+    display: inline-block;
+    width: 85%;
+    height: 20px;
+    overflow: hidden;
+    top: 4px;
+}
+.parent select{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:transparent;
+    border:none;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    color: #b5b4b4;
+    position: absolute;
+    font-size: 15px;
+
+}
+.select-click{
+    position: absolute;
+    right: 10px;
+    height: 1.7rem;
+    padding: 2px 2px 0 10px;
+    border-left: 2px solid #b5b4b4;
+    z-index: -1;
+}
